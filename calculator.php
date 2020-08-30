@@ -9,7 +9,7 @@
 <body>
 <h1>Calculator Design</h1>
 <div class="container">
-      <div class="header">Calculator trial changes 1 </div>
+      <div class="header">Calculator </div>
       <input type="text" class="result">
       <div class="first-row">
         <input type="button" name="" value="&radic;" class="global">
