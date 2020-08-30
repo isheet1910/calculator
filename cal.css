@@ -1,0 +1,37 @@
+body{
+    background: #ffc99f;
+}
+
+.soul{
+    width:50px;
+    height:50px;
+    font-size:25px;
+    margin:2px;
+    background:grey;
+    cursor:pointer;
+}
+
+
+
+.textview{
+    width: 203px;
+    margin:5px;
+    font-size:25px;
+    padding:5px;
+    background:green ;
+}
+
+*{
+    
+    margin:0px;
+    padding:0px;
+}
+
+.main{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%)translateY(-50%);
+    
+}
+
