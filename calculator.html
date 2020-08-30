@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="calcstyle.css" ></link>
 </head>
 <body>
-<h1>Calculator Design</h1>
+<h1>Calculator using html css jaavscript</h1>
 <div class="container">
-      <div class="header">Calculator </div>
+      <div class="header">Calculator </div><br>
       <form name="form">
-        <input type="text" class="result" name="textview">
-      </form>
+        <input type="text" class="result" placeholder="Enter Number" name="textview"><br>
+      </form><br>
       <div class="first-row">
         <input type="button" name="" value="&radic;" class="global" onclick="insert('/')">
         <input type="button" name="" value="(" class="global" onclick="insert('(')">
@@ -42,13 +42,13 @@
           <input type="button" name="" value="0" class=" big" onclick="insert('0')">
           <input type="button" name="" value="." class=" small" onclick="insert('.')">
           <input type="button" name="" value="Del" class=" red small white-text top-margin" onclick="clean()">
-          <input type="button" name="" value="back" class=" blue white-text small top-margin" onclick="back()">
-          <input type="button" name="" value="=" class=" green white-text small top-margin" onclick="equal()">
+          <input type="button" name="" value="C" class=" blue white-text small top-margin" onclick="back()">
+          <input type="button" name="" value="=" class=" green white-text small top-margin" onclick="equal()"><br>
         </div>
         <div class="right">
-          <input type="button" name="" value="+" class="global grey plus" onclick="insert('+')">
+          <input type="button" name="" value="+" class="global grey plus" onclick="insert('+')"><br>
         </div>
-      </div>
+    </div>
     <!-- <h1>hello hello hello </h1> -->
       <script src="calc.js"></script>
 </body>
